@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Assure une gestion cohérente des dimensions */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    overflow-x: hidden; /* Évite le défilement horizontal */
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #0d1b2a; /* bleu foncé */
+}
+
+h1 i {
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+    font-size: 50px; /* Taille de l'icône */
+    color: #1e90ff; /* Couleur de l'icône */
+}
+h1{
+    font-size: 30px; /* Taille du texte */
+    color: #f7fbff; /* Couleur du texte */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #1e90ff;
+}
+
+.hero-section {
+    background-image: url('/images/FORT.jpg');
+    width: 100%;
+    height: 450px; /* hauteur de la section */
+    background-size: cover; 
+    background-position: center;
+    color: rgb(238, 240, 241); /* pour bien voir le texte sur l'image */
+    padding: 100px 20px;
+    text-align: center;
+    background-size: cover;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: rgb(219, 102, 13);
+}
+
+.hero-section .btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #1E90FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 30px; /* décale le bouton vers le bas */
+}
+
+/* Footer */
+footer {
+    background-color: #0d1b2a;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 4px solid #1e90ff;
+}
+
+footer .socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+footer .socials li a {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    border: 2px solid transparent;
+    padding: 8px;
+    border-radius: 50%;
+    color: #cfd2d5;
+    border: 2px solid #355f88;
+}
+
+footer .socials li a:hover {
+    color: #1e90ff;
+    border: 2px solid #1e90ff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
