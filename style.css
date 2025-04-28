@@ -45,37 +45,40 @@ h1{
 }
 
 .hero-section {
-    background-image: url('/images/FORT.jpg');
+    background-image: url('./images/equpe.jpg');
     width: 100%;
-    height: 450px; /* hauteur de la section */
-    background-size: cover; 
-    background-position: center;
-    color: rgb(238, 240, 241); /* pour bien voir le texte sur l'image */
+    height: 750px;
+    background-size: cover; /* L'image couvre toute la section */
+    background-position: top center; /* Centré horizontalement et aligné en haut verticalement */
+    color: rgb(184, 85, 10); /* Pour bien voir le texte sur l'image */
     padding: 100px 20px;
     text-align: center;
-    background-size: cover;
 }
+
 
 .hero-section h1 {
     font-size: 48px;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 250px;
+    color: #d55510; /* couleur du texte */
 }
 
 .hero-section p {
-    font-size: 16px;
-    margin-bottom: 30px;
-    color: rgb(219, 102, 13);
+    font-size: 20px;
+    color: #08d6f6;
+    margin-top: 50px; /* décale le texte vers le bas */
 }
 
 .hero-section .btn {
     display: inline-block;
-    padding: 12px 30px;
+    padding: 18px 24px;
     background-color: #1E90FF;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-    margin-top: 30px; /* décale le bouton vers le bas */
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 100px; /* décale le bouton vers le bas */
+    text-align: center;
 }
 
 /* Footer */
@@ -85,6 +88,9 @@ footer {
     text-align: center;
     padding: 40px 20px;
     border-top: 4px solid #1e90ff;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 footer .socials {
